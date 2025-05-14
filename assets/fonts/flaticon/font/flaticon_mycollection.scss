@@ -1,0 +1,113 @@
+$flaticon_mycollection-font: "flaticon_mycollection";
+
+@font-face {
+    font-family: $flaticon_mycollection-font;
+    src: url("./flaticon_mycollection.ttf?361e8f36a192c41c580d4bd74142f2e6") format("truetype"),
+url("./flaticon_mycollection.woff?361e8f36a192c41c580d4bd74142f2e6") format("woff"),
+url("./flaticon_mycollection.woff2?361e8f36a192c41c580d4bd74142f2e6") format("woff2"),
+url("./flaticon_mycollection.eot?361e8f36a192c41c580d4bd74142f2e6#iefix") format("embedded-opentype"),
+url("./flaticon_mycollection.svg?361e8f36a192c41c580d4bd74142f2e6#flaticon_mycollection") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon_mycollection !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon_mycollection-map: (
+    "charging-station": "\f101",
+    "electric-car": "\f102",
+    "charging-station-1": "\f103",
+    "charger": "\f104",
+    "charging-station-2": "\f105",
+    "ev": "\f106",
+    "charging-station-3": "\f107",
+    "charger-1": "\f108",
+    "charging-station-4": "\f109",
+    "electric-car-1": "\f10a",
+    "electric-car-2": "\f10b",
+    "charger-2": "\f10c",
+    "scooter": "\f10d",
+    "charger-3": "\f10e",
+    "charging-station-5": "\f10f",
+    "charging-battery": "\f110",
+    "charging-station-6": "\f111",
+    "charging-battery-1": "\f112",
+    "electric-car-3": "\f113",
+    "electric-car-4": "\f114",
+    "electric-car-5": "\f115",
+    "electric-car-6": "\f116",
+);
+
+.flaticon-charging-station:before {
+    content: map-get($flaticon_mycollection-map, "charging-station");
+}
+.flaticon-electric-car:before {
+    content: map-get($flaticon_mycollection-map, "electric-car");
+}
+.flaticon-charging-station-1:before {
+    content: map-get($flaticon_mycollection-map, "charging-station-1");
+}
+.flaticon-charger:before {
+    content: map-get($flaticon_mycollection-map, "charger");
+}
+.flaticon-charging-station-2:before {
+    content: map-get($flaticon_mycollection-map, "charging-station-2");
+}
+.flaticon-ev:before {
+    content: map-get($flaticon_mycollection-map, "ev");
+}
+.flaticon-charging-station-3:before {
+    content: map-get($flaticon_mycollection-map, "charging-station-3");
+}
+.flaticon-charger-1:before {
+    content: map-get($flaticon_mycollection-map, "charger-1");
+}
+.flaticon-charging-station-4:before {
+    content: map-get($flaticon_mycollection-map, "charging-station-4");
+}
+.flaticon-electric-car-1:before {
+    content: map-get($flaticon_mycollection-map, "electric-car-1");
+}
+.flaticon-electric-car-2:before {
+    content: map-get($flaticon_mycollection-map, "electric-car-2");
+}
+.flaticon-charger-2:before {
+    content: map-get($flaticon_mycollection-map, "charger-2");
+}
+.flaticon-scooter:before {
+    content: map-get($flaticon_mycollection-map, "scooter");
+}
+.flaticon-charger-3:before {
+    content: map-get($flaticon_mycollection-map, "charger-3");
+}
+.flaticon-charging-station-5:before {
+    content: map-get($flaticon_mycollection-map, "charging-station-5");
+}
+.flaticon-charging-battery:before {
+    content: map-get($flaticon_mycollection-map, "charging-battery");
+}
+.flaticon-charging-station-6:before {
+    content: map-get($flaticon_mycollection-map, "charging-station-6");
+}
+.flaticon-charging-battery-1:before {
+    content: map-get($flaticon_mycollection-map, "charging-battery-1");
+}
+.flaticon-electric-car-3:before {
+    content: map-get($flaticon_mycollection-map, "electric-car-3");
+}
+.flaticon-electric-car-4:before {
+    content: map-get($flaticon_mycollection-map, "electric-car-4");
+}
+.flaticon-electric-car-5:before {
+    content: map-get($flaticon_mycollection-map, "electric-car-5");
+}
+.flaticon-electric-car-6:before {
+    content: map-get($flaticon_mycollection-map, "electric-car-6");
+}
